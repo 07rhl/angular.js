@@ -963,7 +963,7 @@ var _UNINITIALIZED_VALUE = new UNINITIALIZED_VALUE();
  *
  * @description
  */
-$CompileProvider.$inject = ['$provide', '$$sanitizeUriProvider'];
+$CompileProvider
 /** @this */
 function $CompileProvider($provide, $$sanitizeUriProvider) {
   var hasDirectives = {},
